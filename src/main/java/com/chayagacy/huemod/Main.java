@@ -1,5 +1,6 @@
 package com.chayagacy.huemod;
 
+import com.chayagacy.huemod.proxy.ClientProxy;
 import com.chayagacy.huemod.proxy.CommonProxy;
 import com.chayagacy.huemod.util.Reference;
 
@@ -21,13 +22,13 @@ public class Main {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event){}
+	public static void preInit(FMLPreInitializationEvent event){}
 	
 	@EventHandler
 	public static void init(FMLInitializationEvent event){}
 	
 	@EventHandler
-	public static void PostInit(FMLPostInitializationEvent event){}
+	public static void postInit(FMLPostInitializationEvent event){}
 	
 }
  

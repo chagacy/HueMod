@@ -1,0 +1,5 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "hm:items/ingot_copper" }
+}

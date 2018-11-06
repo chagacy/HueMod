@@ -1,6 +1,6 @@
 [
 {
-  "modid": "huemod",
+  "modid": "hm",
   "name": "Hue Mod",
   "description": "Mod that will make use of Phillips Hue lighting to make a more immersive game.",
   "version": "1.0",

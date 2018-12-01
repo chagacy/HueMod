@@ -3,7 +3,7 @@ package com.chayagacy.huemod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.chayagacy.huemod.blocks.BlockBase;
+import com.chayagacy.huemod.objects.blocks.BlockBase;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;;

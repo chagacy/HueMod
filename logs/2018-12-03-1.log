@@ -1,0 +1,851 @@
+[11:34:59] [main/INFO] [GradleStart]: Extra: []
+[11:34:59] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/chaya/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:34:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:34:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:34:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:34:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:34:59] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[11:34:59] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_171, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_171
+[11:34:59] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[11:34:59] [main/ERROR] [FML]: Full: C:\Users\chaya\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[11:34:59] [main/ERROR] [FML]: Trimmed: c:/users/chaya/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[11:34:59] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:34:59] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[11:35:00] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[11:35:00] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[11:35:00] [main/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[11:35:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:35:00] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[11:35:00] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:35:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:35:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:35:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:35:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:35:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:35:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:35:02] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:35:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:35:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:35:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:35:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:35:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:35:02] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:35:03] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player814
+[11:35:06] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[11:35:06] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[11:35:07] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_171, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 889812632 bytes (848 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.5.0 - Build 22.20.16.4749' Renderer: 'Intel(R) HD Graphics 630'
+[11:35:07] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[11:35:07] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:35:07] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[11:35:07] [main/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[11:35:08] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[11:35:08] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at CLIENT
+[11:35:08] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at SERVER
+[11:35:09] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 76654542 nanos
+[11:35:09] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hue Mod
+[11:35:09] [main/INFO] [FML]: Processing ObjectHolder annotations
+[11:35:09] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[11:35:09] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:35:09] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:35:10] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:35:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:35:10] [main/INFO] [FML]: Applying holder lookups
+[11:35:10] [main/INFO] [FML]: Holder lookups applied
+[11:35:10] [main/INFO] [FML]: Applying holder lookups
+[11:35:10] [main/INFO] [FML]: Holder lookups applied
+[11:35:10] [main/INFO] [FML]: Applying holder lookups
+[11:35:10] [main/INFO] [FML]: Holder lookups applied
+[11:35:10] [main/INFO] [FML]: Applying holder lookups
+[11:35:10] [main/INFO] [FML]: Holder lookups applied
+[11:35:10] [main/INFO] [FML]: Injecting itemstacks
+[11:35:10] [main/INFO] [FML]: Itemstack injection complete
+[11:35:10] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[11:35:18] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[11:35:18] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[11:35:18] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:35:19] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[11:35:19] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[11:35:23] [main/INFO] [FML]: Max texture size: 16384
+[11:35:24] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[11:35:25] [main/INFO] [FML]: Applying holder lookups
+[11:35:25] [main/INFO] [FML]: Holder lookups applied
+[11:35:25] [main/INFO] [FML]: Injecting itemstacks
+[11:35:25] [main/INFO] [FML]: Itemstack injection complete
+[11:35:25] [main/INFO] [STDOUT]: [com.chayagacy.huemod.Main:Init:79]: Welcome to this HueStream minimal example Java app.
+The only thing it does is connect to a bridge and turn the lights green.
+[11:35:25] [Thread-7/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_STARTED
+[11:35:25] [Thread-8/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_LOADING
+[11:35:25] [Thread-9/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_LOADING_BRIDGE_CONFIGURED
+[11:35:25] [Thread-10/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING_SMALL
+[11:35:26] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[11:35:26] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[11:35:26] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[11:35:26] [Thread-12/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_SMALL
+[11:35:26] [Thread-13/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING
+[11:35:26] [Thread-14/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_READY_TO_START
+[11:35:26] [Thread-15/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_SAVING
+[11:35:26] [Thread-16/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_SAVING_SAVED
+[11:35:26] [Thread-17/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_ACTIVATING
+[11:35:27] [Thread-18/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_ACTIVATING_ACTIVE
+[11:35:27] [Thread-19/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_DONE_COMPLETED
+[11:35:27] [Thread-20/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CONNECTED
+[11:35:27] [Thread-21/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_STREAMING_CONNECTED
+[11:35:27] [Thread-22/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CHANGED
+[11:35:27] [Thread-23/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_GROUPLIST_UPDATED
+[11:35:27] [Thread-24/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_LIGHTS_UPDATED
+[11:35:27] [Thread-25/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_FINISHED
+[11:35:27] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[11:35:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: music.menu
+[11:35:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: ui.button.click
+[11:35:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: ui.button.click
+[11:35:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[11:35:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[11:35:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[11:35:51] [Server thread/INFO] [FML]: Applying holder lookups
+[11:35:51] [Server thread/INFO] [FML]: Holder lookups applied
+[11:35:51] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@24c499f9)
+[11:35:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[11:35:52] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@24c499f9)
+[11:35:52] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@24c499f9)
+[11:35:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[11:35:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 36%
+[11:35:54] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:35:54] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:35:54] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[11:35:55] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[11:35:55] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[11:35:55] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,hm@[1.12.2],forge@14.23.5.2768,mcp@9.42
+[11:35:55] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[11:35:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:35:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player814[local:E:937d417b] logged in with entity id 463 at (91.80677637952945, 63.78608123157454, 207.23784131538545)
+[11:35:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player814 joined the game
+[11:35:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:35:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:35:56] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5e4ac458[id=777409db-46bf-31bf-844f-6d600c083d6c,name=Player814,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[11:35:57] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancements
+[11:35:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:35:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:35:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:35:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:35:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:35:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:35:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.ambient
+[11:35:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:35:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:36:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: ui.button.click
+[11:36:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:02] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:03] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.hurt
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:04] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.step
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:05] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 12 advancements
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:05] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.ambient
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.hurt
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.swim
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:06] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.swim
+[11:36:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player814: Object successfully summoned]
+[11:36:07] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Object successfully summoned
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.lightning.thunder
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.lightning.impact
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:07] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:08] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:09] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.swim
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:10] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.experience_orb.pickup
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:11] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:12] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.generic.splash
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.swim
+[11:36:13] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:36:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: ui.button.click
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.ambient
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:27] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.sand.step
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.squid.ambient
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.generic.splash
+[11:36:28] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.item.pickup
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.item.pickup
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.generic.splash
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.generic.splash
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:29] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.step
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:30] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:31] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.hostile.splash
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.grass.step
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:32] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.swim
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:33] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.swim
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:34] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.swim
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:35] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:36] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.step
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.splash
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.player.swim
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: music.game
+[11:36:37] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player814: Set own game mode to Creative Mode]
+[11:36:38] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:38] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain.above
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:39] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:40] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:41] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:42] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:43] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:44] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:45] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:46] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:47] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:48] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:49] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:50] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:51] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:52] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:53] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:54] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:55] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:56] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:57] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.step
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player814: Object successfully summoned]
+[11:36:58] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Object successfully summoned
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.lightning.thunder
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.lightning.impact
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:58] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: entity.zombie.step
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:36:59] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: music.creative
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.pop
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:00] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.lava.ambient
+[11:37:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: block.water.ambient
+[11:37:01] [main/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onLightningStrike:116]: weather.rain
+[11:37:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[11:37:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld

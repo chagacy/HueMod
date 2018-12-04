@@ -20,8 +20,8 @@ public class HueLightingEffects {
 	    //Create an animation which repeats a 1 second sawTooth 5 times
 	    PointVector pointList = new PointVector();
 	    pointList.add(new Point(   0, 0));
-	    pointList.add(new Point(500, 0.5));
-	    pointList.add(new Point(1000, 0.0));
+	    pointList.add(new Point(250, 0.5));
+	    pointList.add(new Point(500, 0.0));
 	    double repeatTimes = 3;
 	    CurveAnimation sawTooth = new CurveAnimation(repeatTimes, pointList);
 	        

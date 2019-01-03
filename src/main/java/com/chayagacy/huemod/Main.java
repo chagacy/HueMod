@@ -24,7 +24,6 @@ import com.lighting.huestream.PointVector;
 import com.lighting.huestream.SequenceAnimation;
 import com.lighting.huestream.SequenceEffect;
 import com.lighting.huestream.TweenAnimation;
-import com.lighting.huestream.HueStream;
 import com.lighting.huestream.Animation;
 import com.lighting.huestream.Area;
 import com.lighting.huestream.AreaEffect;
@@ -33,6 +32,7 @@ import com.lighting.huestream.BridgeStatus;
 import com.lighting.huestream.Color;
 import com.lighting.huestream.FeedbackMessage;
 import com.lighting.huestream.FeedbackMessage.FeedbackType;
+import com.lighting.huestream.HueStream;
 import com.lighting.huestream.IFeedbackMessageHandler;
 import com.lighting.huestream.LightSourceEffect;
 import com.lighting.huestream.Location;
@@ -66,7 +66,7 @@ public class Main {
 		Init();
  		hueStream.ConnectBridgeAsync();
 		IfMultipleGroupsSelectFirst();
-		HueLightingEffects.StartUpLights();
+		HueLightingEffects.flash("FFFFFF", 2, 1000);
  		//hueStream.ShutDown();
 	}
 	

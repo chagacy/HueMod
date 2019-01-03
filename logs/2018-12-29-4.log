@@ -1,0 +1,162 @@
+[17:26:13] [main/INFO] [GradleStart]: Extra: []
+[17:26:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/chaya/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:26:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:26:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:26:13] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2795 for Minecraft 1.12.2 loading
+[17:26:13] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_171, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_171
+[17:26:13] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[17:26:13] [main/ERROR] [FML]: Full: C:\Users\chaya\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[17:26:13] [main/ERROR] [FML]: Trimmed: c:/users/chaya/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[17:26:13] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:26:13] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[17:26:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[17:26:15] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[17:26:15] [main/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[17:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:26:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[17:26:15] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[17:26:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:26:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:26:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:17] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[17:26:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:26:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:26:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[17:26:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:26:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:26:17] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:26:18] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player655
+[17:26:21] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:26:21] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[17:26:22] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_171, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 860825024 bytes (820 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.5.0 - Build 22.20.16.4749' Renderer: 'Intel(R) HD Graphics 630'
+[17:26:22] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2795 Initialized
+[17:26:22] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:26:22] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
+[17:26:22] [Client thread/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[17:26:24] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[17:26:24] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at CLIENT
+[17:26:24] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at SERVER
+[17:26:24] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 68223943 nanos
+[17:26:25] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hue Mod
+[17:26:25] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:26:25] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[17:26:25] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:26:25] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:26:25] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:26:25] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:25] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:25] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:25] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:25] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:25] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:25] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:25] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:25] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:26:25] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:26:25] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2796
+[17:26:29] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[17:26:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[17:26:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:26:31] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[17:26:31] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[17:26:36] [Client thread/INFO] [FML]: Max texture size: 16384
+[17:26:36] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[17:26:38] [Client thread/INFO] [FML]: Applying holder lookups
+[17:26:38] [Client thread/INFO] [FML]: Holder lookups applied
+[17:26:38] [Client thread/INFO] [FML]: Injecting itemstacks
+[17:26:38] [Client thread/INFO] [FML]: Itemstack injection complete
+[17:26:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.Main:Init:79]: Welcome to this HueStream minimal example Java app.
+The only thing it does is connect to a bridge and turn the lights green.
+[17:26:38] [Thread-7/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_STARTED
+[17:26:38] [Thread-8/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_LOADING
+[17:26:38] [Thread-9/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_LOADING_BRIDGE_CONFIGURED
+[17:26:38] [Thread-10/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING_SMALL
+[17:26:38] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[17:26:38] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[17:26:38] [Thread-11/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_SMALL
+[17:26:38] [Thread-12/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING
+[17:26:38] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[17:26:38] [Thread-14/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_READY_TO_START
+[17:26:38] [Thread-15/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_SAVING
+[17:26:38] [Thread-16/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_SAVING_SAVED
+[17:26:38] [Thread-17/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_START_ACTIVATING
+[17:26:39] [Thread-18/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_FINISH_ACTIVATING_ACTIVE
+[17:26:39] [Thread-19/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_DONE_COMPLETED
+[17:26:39] [Thread-20/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CONNECTED
+[17:26:39] [Thread-21/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_STREAMING_CONNECTED
+[17:26:39] [Thread-22/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CHANGED
+[17:26:39] [Thread-23/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_GROUPLIST_UPDATED
+[17:26:39] [Thread-24/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_LIGHTS_UPDATED
+[17:26:39] [Thread-25/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_FINISHED
+[17:26:39] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[17:26:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[17:26:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[17:26:48] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:26:48] [Server thread/INFO] [FML]: Applying holder lookups
+[17:26:48] [Server thread/INFO] [FML]: Holder lookups applied
+[17:26:49] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4c2d1ff4)
+[17:26:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[17:26:49] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4c2d1ff4)
+[17:26:49] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4c2d1ff4)
+[17:26:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:26:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[17:26:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 6f2e7da0-d1ae-40e6-a6a4-d04173286195
+[17:26:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 33%
+[17:26:51] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:26:51] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:26:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[17:26:53] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[17:26:53] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[17:26:53] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,hm@[1.12.2],forge@14.23.5.2795,mcp@9.42
+[17:26:53] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[17:26:53] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:26:53] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player655[local:E:8bdce48e] logged in with entity id 418 at (119.71404052766475, 66.0, 192.5991211776492)
+[17:26:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player655 joined the game
+[17:26:54] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:26:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[17:26:54] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5ed90bb2[id=2854591c-b60f-3cde-b807-30391bb3ef3d,name=Player655,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3182) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[17:26:54] [Client thread/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[17:27:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[17:28:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[17:28:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[18:30:52] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3758410ms behind, skipping 75168 tick(s)
+[18:30:56] [Thread-30/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
+[18:30:56] [Thread-31/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 

@@ -1,6 +1,7 @@
 package com.chayagacy.huemod;
 
 import com.chayagacy.huemod.util.Reference;
+import com.google.common.collect.Iterators;
 import com.chayagacy.huemod.HueLightingEffects;
 
 import com.lighting.huestream.Area;
@@ -18,6 +19,7 @@ import net.minecraft.block.BlockTorch;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
+import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -34,6 +36,7 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.living.PotionEvent.PotionAddedEvent;
+import net.minecraftforge.event.entity.player.PlayerPickupXpEvent;
 import net.minecraftforge.event.terraingen.BiomeEvent;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;
 import net.minecraftforge.event.world.ExplosionEvent;
@@ -54,103 +57,175 @@ public class HueModEventHandler {
 		if (event.getEntity() instanceof EntityPlayer) {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
 			if (player.isPotionActive(MobEffects.POISON)) {
-				HueLightingEffects.flashGreen();
+				HueLightingEffects.flash("91d200", 1, 1000);
 			} else if (player.isPotionActive(MobEffects.WITHER)) {
-				// Purple
-
-			} else // if (event.getSource().getImmediateSource() instanceof
-					// EntityPlayer) {
-				HueLightingEffects.flashRed();
-			// }
+				HueLightingEffects.flash("AA00AA", 1, 1000);// Purple
+			} else
+				HueLightingEffects.flash("AA0000", 1, 1000);
 		}
 	}
 
 	@SubscribeEvent
 	public static void onDie(LivingDeathEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
-			HueLightingEffects.flashRed();
+			HueLightingEffects.flash("AA0000", 1, 1000);
+		} else if(event.getEntity() instanceof EntityMob && event.getSource().getTrueSource() instanceof EntityPlayer){
+			HueLightingEffects.flash("2b9f33", 1, 750);
 		}
 	}
 
 	@SubscribeEvent
 	public static void onExplosion(ExplosionEvent event) {
-		HueLightingEffects.flashRed();
+		HueLightingEffects.explosion();
 	}
-
+	
+//	static int level=0;
+///	
+//	@SubscribeEvent
+//	public static void levelUp(PlayerPickupXpEvent  event) {
+//		System.out.println("Collect Orb");
+//		EntityPlayer player = event.getEntityPlayer();		
+//		
+//		if(player.xpBarCap() > level) {
+//			HueLightingEffects.flash("3F3F15", 1, 1000);
+//			System.out.println("Level up!");
+//			level = player.experienceLevel;
+//		}
+//	}
+	
+	private static boolean fireAnimation = false;
+	private static boolean waterAnimation = false;
+	private static boolean lavaAnimation = false;
+	private static boolean netherAnimation = false;
+	private static int distanceFromFire = 7;
+	private static AreaEffect element = new AreaEffect("element", 3);
+    
+	
 	@SubscribeEvent
 	public static void onTicketEvent(TickEvent.PlayerTickEvent event) {
 		if (event.phase != TickEvent.Phase.END || event.side != Side.CLIENT)
 			return;
+		
 		EntityPlayer player = event.player;
+		
 		if (player.getEntityWorld().getWorldTime() % 5 == 0) {
-			Iterable<BlockPos> blocks = BlockPos.getAllInBox(player.getPosition().add(-5, -5, -5),
-					player.getPosition().add(5, 5, 5)); // getEntityBoundingBox().expand(15, 15, 15));
-
-			for (BlockPos block : blocks) {
-				IBlockState state = player.getEntityWorld().getBlockState(block);
-				if (state.getBlock() instanceof BlockFire) {
-					Vec3d playerPos = player.getPositionVector();
-					Vec3d blockPos = new Vec3d(block);
-					Vec3d diff = playerPos.subtract(blockPos);
-
-					float angle = (float) Math.toDegrees(Math.atan2(diff.z, diff.x)) + 180F; // Add 180 so it's between 0 and 360
-					float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
-					float relativeAngle = ((rotation - angle) + 180) % 360;
-
-					System.out.println(relativeAngle);
-
-					HueLightingEffects.flashRed();
-				} else if (state.getBlock() instanceof BlockTorch) { // Add a  bright  constant  light. Should it be direction?????
-					Vec3d playerPos = player.getPositionVector();
-					Vec3d blockPos = new Vec3d(block);
-					Vec3d diff = playerPos.subtract(blockPos);
-
-					float angle = (float) Math.toDegrees(Math.atan2(diff.z, diff.x)) + 180F; // Add  180  so  it's  between  0  and 360
-					float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
-					float relativeAngle = ((rotation - angle) + 180) % 360;
-
-					System.out.println(relativeAngle);
-
-					HueLightingEffects.flashRed();
-				}
-			}
-
+			
+			boolean nearFire = false;
+			boolean inWater = false;
+			boolean nearLava = false;
+			
 			////////////////// UNDERWATER
 			if (player.getAir() < 300) {
-				System.out.println("WATER");
-				HueLightingEffects.flashBlue();
+				inWater = true;
+				if(!waterAnimation){
+					HueLightingEffects.flickerAnimation(element, "0083FF", -999, 0.5, 0.7, 400, 500);
+					waterAnimation = true;
+					System.out.println("WATER Start");
+				}
+			} else if (waterAnimation && !inWater){
+				element.Disable();
+				waterAnimation = false; // highest priority so will change all to off
+				lavaAnimation = false;
+				fireAnimation = false;
+				System.out.println("WATER Stop");
 			}
-
+			
+			////////////////////// NETHER 
+			else if (player.inPortal && !netherAnimation) {
+				HueLightingEffects.flickerAnimation(element, "6800FF", -999, 0.3, 0.8, 150, 250);
+				netherAnimation = true;
+				System.out.println("Portal Start");
+			} else if (!player.inPortal && netherAnimation){
+				element.Disable();
+				netherAnimation = false;
+				System.out.println("Portal Stop");
+			} else{
+				Iterable<BlockPos> blocksFire = BlockPos.getAllInBox(player.getPosition().add(-5, -3, -5),
+						player.getPosition().add(5, 3, 5));
+				for (BlockPos block : blocksFire) {
+					IBlockState state = player.getEntityWorld().getBlockState(block);
+					if (state.getBlock() instanceof BlockFire) {
+						nearFire = true;
+						
+						//set variable to true 
+						
+						Vec3d playerPos = player.getPositionVector();
+						Vec3d blockPos = new Vec3d(block);
+						Vec3d diff = playerPos.subtract(blockPos);
+	
+						float angle = (float) Math.toDegrees(Math.atan2(diff.z, diff.x)) + 180F; // Add 180 so it's between 0 and 360
+						float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
+						float relativeAngle = ((rotation - angle) + 180) % 360;			
+	
+						//HueLightingEffects.flash("FFAA00", 1, 1000);
+						//HueLightingEffects.playCandleWithColorVariation("FFB109", (int)relativeAngle, diff.length());
+						if(!fireAnimation){
+							HueLightingEffects.flickerAnimation(element, "FFB109", (int)relativeAngle, 0.6, 1.0, 200, 350);
+							System.out.println("Fire Start");
+							fireAnimation = true;
+						}
+					}
+					/////////////// LAVA
+					else if (state.getBlock() == Blocks.LAVA || state.getBlock() == Blocks.FLOWING_LAVA) {
+						nearLava = true;
+						
+						Vec3d playerPos = player.getPositionVector();
+						Vec3d blockPos = new Vec3d(block);
+						Vec3d diff = playerPos.subtract(blockPos);
+	
+						float angle = (float) Math.toDegrees(Math.atan2(diff.z, diff.x)) + 180F; // Add 180 so it's between 0 and 360
+						float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
+						float relativeAngle = ((rotation - angle) + 180) % 360;		
+						
+						if(!lavaAnimation){
+							HueLightingEffects.flickerAnimation(element, "301C0B", (int)relativeAngle, 0.1,0.5, 400, 500);
+							System.out.println("Lava Start");
+							lavaAnimation = true;
+						}
+					}
+				}
+				/////////////////// STOP ANIMATION 
+				if (!nearFire && fireAnimation){
+					System.out.println("Fire Stop");
+					fireAnimation = false;
+					lavaAnimation = false;
+					waterAnimation = false;
+					element.Disable();
+				} else if (!nearLava && lavaAnimation){
+					System.out.println("Lava Stop");
+					fireAnimation = false;
+					lavaAnimation = false;
+					waterAnimation = false;
+					element.Disable();
+				}
+			}			
 		}
 	}
-
+ 
 	@SubscribeEvent
 	public static void onSound(PlaySoundEvent event) {
-		if (event.getName().equals("block.portal.trigger")) { // Nether portal
-			System.out.println("PORTAL");
-		} else if (event.getName().equals("entity.lightning.impact")) { // lightning
-			HueLightingEffects.flashBlue();
+		if (event.getName().equals("entity.lightning.impact")) { // lightning
+			HueLightingEffects.flash("5555FF", 3, 250);
 		}
 	}
 
 	@SubscribeEvent
 	public static void onBlockBreak(BreakEvent event) {
-		if (event.getState().getBlock() instanceof BlockOre) {
-			if (event.getState().getBlock() == Blocks.GOLD_ORE) {
-				System.out.println("GOLD");
-			} else if (event.getState().getBlock() == Blocks.IRON_ORE) {
-				System.out.println("IRON");
-			} else if (event.getState().getBlock() == Blocks.DIAMOND_ORE) {
-				System.out.println("DIAMOND");
-			} else if (event.getState().getBlock() == Blocks.COAL_ORE) {
-				System.out.println("COAL");
-			} else if (event.getState().getBlock() == Blocks.REDSTONE_ORE) {
-				System.out.println("REDSTONE");
-			} else if (event.getState().getBlock() == Blocks.EMERALD_ORE) {
-				System.out.println("EMERALD");
-			} else if (event.getState().getBlock() == Blocks.LAPIS_ORE) {
-				System.out.println("LAPIS");
-			}
+		System.out.println(event.getState().getBlock().toString());
+		if (event.getState().getBlock() == Blocks.GOLD_ORE) {
+			HueLightingEffects.flash("FFAA00", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.IRON_ORE) {
+			HueLightingEffects.flash("9e7c62", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.DIAMOND_ORE) {
+			HueLightingEffects.flash("55FFFF", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.REDSTONE_ORE) {
+			HueLightingEffects.flash("c90a00", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.COAL_ORE) {
+			HueLightingEffects.flash("555555", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.EMERALD_ORE) {
+			HueLightingEffects.flash("55FF55", 1, 500);
+		} else if (event.getState().getBlock() == Blocks.LAPIS_ORE) {
+			HueLightingEffects.flash("5555FF", 1, 500);
 		}
 	}
 
@@ -168,8 +243,29 @@ public class HueModEventHandler {
     		String colourHex = Integer.toHexString(colourInt);
     		System.out.println(potion.getName() + " " + colourHex);
     		
-    		// Reflect the colour of hte potion in the lights
+    		HueLightingEffects.flash(colourHex, 1, 1000);
+    		
+    		// Reflect the colour of the potion in the lights+
+    		
         }
 	}
 
 }
+
+////DIFFERENT STRENGTH OF LIGHT DEPENDING ON DISTANCE
+//if(diff.length()>=0 && diff.length()<3 && distanceFromFire!=1){
+//	AreaEffect fire1 = new AreaEffect("fire",1);
+//	HueLightingEffects.playCandleWithColorVariation(fire1, "FFB109", (int)relativeAngle);
+//	distanceFromFire = 1;
+//	System.out.println("1");
+//}else if(diff.length()>=3 && diff.length()<5 && distanceFromFire!=2){
+//	AreaEffect fire2 = new AreaEffect("fire",1);
+//	HueLightingEffects.playCandleWithColorVariation(fire2, "765300", (int)relativeAngle);
+//	distanceFromFire = 2;
+//	System.out.println("2");
+//} else if(diff.length()>=5 && diff.length()<6 && distanceFromFire!=3){
+//	fire = new AreaEffect("fire",1);
+//	HueLightingEffects.playCandleWithColorVariation(fire, "211700", (int)relativeAngle);
+//	distanceFromFire = 3;
+//	System.out.println("3");
+//}

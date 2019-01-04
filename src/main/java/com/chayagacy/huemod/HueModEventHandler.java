@@ -51,6 +51,9 @@ import net.minecraftforge.fml.relauncher.Side;
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class HueModEventHandler {
+	
+
+	private static AreaEffect element = new AreaEffect("element", 3);
 
 	@SubscribeEvent
 	public static void onHurt(LivingHurtEvent event) {
@@ -92,13 +95,13 @@ public class HueModEventHandler {
 //			level = player.experienceLevel;
 //		}
 //	}
-	
-	private static boolean fireAnimation = false;
+
 	private static boolean waterAnimation = false;
+	private static boolean fireAnimation = false;
 	private static boolean lavaAnimation = false;
+	private static boolean torchAnimation = false;
 	private static boolean netherAnimation = false;
 	private static int distanceFromFire = 7;
-	private static AreaEffect element = new AreaEffect("element", 3);
     
 	
 	@SubscribeEvent
@@ -109,10 +112,10 @@ public class HueModEventHandler {
 		EntityPlayer player = event.player;
 		
 		if (player.getEntityWorld().getWorldTime() % 5 == 0) {
-			
-			boolean nearFire = false;
 			boolean inWater = false;
+			boolean nearFire = false;
 			boolean nearLava = false;
+			boolean nearTorch = false;
 			
 			////////////////// UNDERWATER
 			if (player.getAir() < 300) {
@@ -127,6 +130,7 @@ public class HueModEventHandler {
 				waterAnimation = false; // highest priority so will change all to off
 				lavaAnimation = false;
 				fireAnimation = false;
+				torchAnimation = false;
 				System.out.println("WATER Stop");
 			}
 			
@@ -138,6 +142,10 @@ public class HueModEventHandler {
 			} else if (!player.inPortal && netherAnimation){
 				element.Disable();
 				netherAnimation = false;
+				waterAnimation = false;
+				fireAnimation = false;
+				lavaAnimation = false;
+				torchAnimation = false;
 				System.out.println("Portal Stop");
 			} else{
 				Iterable<BlockPos> blocksFire = BlockPos.getAllInBox(player.getPosition().add(-5, -3, -5),
@@ -166,7 +174,7 @@ public class HueModEventHandler {
 						}
 					}
 					/////////////// LAVA
-					else if (state.getBlock() == Blocks.LAVA || state.getBlock() == Blocks.FLOWING_LAVA) {
+					else if ((state.getBlock() == Blocks.LAVA || state.getBlock() == Blocks.FLOWING_LAVA) && !fireAnimation) {
 						nearLava = true;
 						
 						Vec3d playerPos = player.getPositionVector();
@@ -183,19 +191,46 @@ public class HueModEventHandler {
 							lavaAnimation = true;
 						}
 					}
+					/////////////// LAVA
+					else if ((state.getBlock() instanceof BlockTorch)) {
+						nearTorch = true;
+						
+//						Vec3d playerPos = player.getPositionVector();
+//						Vec3d blockPos = new Vec3d(block);
+//						Vec3d diff = playerPos.subtract(blockPos);
+//	
+//						float angle = (float) Math.toDegrees(Math.atan2(diff.z, diff.x)) + 180F; // Add 180 so it's between 0 and 360
+//						float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
+//						float relativeAngle = ((rotation - angle) + 180) % 360;		
+						
+						if(!torchAnimation && !fireAnimation && !lavaAnimation){
+							HueLightingEffects.flickerAnimation(element, "ffd891", -999, 0.4,0.5, 400, 500);
+							System.out.println("Torch Start");
+							torchAnimation = true;
+						}
+					}
 				}
 				/////////////////// STOP ANIMATION 
 				if (!nearFire && fireAnimation){
 					System.out.println("Fire Stop");
+					waterAnimation = false;
 					fireAnimation = false;
 					lavaAnimation = false;
-					waterAnimation = false;
+					torchAnimation = false;
 					element.Disable();
 				} else if (!nearLava && lavaAnimation){
 					System.out.println("Lava Stop");
+					waterAnimation = false;
 					fireAnimation = false;
 					lavaAnimation = false;
+					torchAnimation = false;
+					element.Disable();
+				} else if (!nearTorch && torchAnimation){
+					System.out.println("Torch Stop");
 					waterAnimation = false;
+					fireAnimation = false;
+					lavaAnimation = false;
+					torchAnimation = false;
 					element.Disable();
 				}
 			}			

@@ -240,20 +240,10 @@ public class HueLightingEffects {
 	    double maxValue=0;
 	    double minTransitionMs=0;
 	    double maxTransitionMs=0;
-	    
-	    System.out.println(r/255.0);
-	    System.out.println(g/255.0);
-	    System.out.println(b/255.0);
-	    
 	    redVariation = new RandomAnimation((r/255.0), (r/255.0), 200, 400, TweenType.EaseInOutQuad);
 		greenVariation = new RandomAnimation((g/255.0), (g/255.0), 200, 400, TweenType.EaseInOutQuad);
 	    blueVariation = new RandomAnimation((b/255.0), (b/255.0), 200, 400, TweenType.EaseInOutQuad);
-	    
-//	    redVariation = new RandomAnimation((0.0), (0.), 200, 400, TweenType.EaseInOutQuad);
-//		greenVariation = new RandomAnimation((0.0), (0.0), 200, 400, TweenType.EaseInOutQuad);
-//	    blueVariation = new RandomAnimation((0.3), (0.3), 200, 400, TweenType.EaseInOutQuad);
 
-		    
 		effect.SetColorAnimation(redVariation, greenVariation, blueVariation);
 
 	    minValue = strengthLow;

@@ -66,7 +66,7 @@ public class Main {
 		Init();
  		hueStream.ConnectBridgeAsync();
 		IfMultipleGroupsSelectFirst();
-		HueLightingEffects.flash("FFFFFF", 2, 1000);
+		HueLightingEffects.flickerAnimation(new AreaEffect("",0), "444444", -999, 0.1, 0.1, 1000, 1000);
  		//hueStream.ShutDown();
 	}
 	
@@ -76,8 +76,6 @@ public class Main {
 	
 	
 	public static void Init() {
-		System.out.println("Welcome to this HueStream minimal example Java app.\n"
-				+ "The only thing it does is connect to a bridge and turn the lights green.");
 		
 		Config config = new Config("JavaDummyExample", "PC", new PersistenceEncryptionKey("jfsDn39fqSyd0fvfn"));
 		hueStream = new HueStream(config);

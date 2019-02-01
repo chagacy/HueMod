@@ -53,7 +53,7 @@ import net.minecraftforge.fml.relauncher.Side;
 public class HueModEventHandler {
 	
 
-	private static AreaEffect element = new AreaEffect("element", 3);
+	private static AreaEffect element = new AreaEffect("element", 0);
 
 	@SubscribeEvent
 	public static void onHurt(LivingHurtEvent event) {
@@ -101,6 +101,7 @@ public class HueModEventHandler {
 	private static boolean lavaAnimation = false;
 	private static boolean torchAnimation = false;
 	private static boolean netherAnimation = false;
+	private static boolean constantAnimation = true;
 	private static int distanceFromFire = 7;
     
 	
@@ -126,7 +127,8 @@ public class HueModEventHandler {
 					System.out.println("WATER Start");
 				}
 			} else if (waterAnimation && !inWater){
-				element.Disable();
+				HueLightingEffects.stop(element, "0083FF");
+				//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				waterAnimation = false; // highest priority so will change all to off
 				lavaAnimation = false;
 				fireAnimation = false;
@@ -140,7 +142,8 @@ public class HueModEventHandler {
 				netherAnimation = true;
 				System.out.println("Portal Start");
 			} else if (!player.inPortal && netherAnimation){
-				element.Disable();
+				HueLightingEffects.stop(element, "6800FF");
+				//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				netherAnimation = false;
 				waterAnimation = false;
 				fireAnimation = false;
@@ -165,13 +168,33 @@ public class HueModEventHandler {
 						float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
 						float relativeAngle = ((rotation - angle) + 180) % 360;			
 	
-						//HueLightingEffects.flash("FFAA00", 1, 1000);
-						//HueLightingEffects.playCandleWithColorVariation("FFB109", (int)relativeAngle, diff.length());
 						if(!fireAnimation){
 							HueLightingEffects.flickerAnimation(element, "FFB109", (int)relativeAngle, 0.6, 1.0, 200, 350);
 							System.out.println("Fire Start");
 							fireAnimation = true;
+							lavaAnimation = false;
 						}
+						
+						
+//					//DIFFERENT STRENGTH OF LIGHT DEPENDING ON DISTANCE
+//						if(diff.length()>=0 && diff.length()<3 && distanceFromFire!=1){
+//							fireAnimation = true;
+//							HueLightingEffects.flickerAnimation(element, "FFB109", (int)relativeAngle, 0.7, 0.9, 200, 350);
+//							distanceFromFire = 1;
+//							System.out.println("1");
+//						}else if(diff.length()>=3 && diff.length()<5 && distanceFromFire!=2){
+//							fireAnimation = true;
+//							HueLightingEffects.flickerAnimation(element, "FFB109", (int)relativeAngle, 0.5, 0.7, 200, 350);
+//							distanceFromFire = 2;
+//							System.out.println("2");
+//						} else if(diff.length()>=5 && diff.length()<6 && distanceFromFire!=3){
+//							fireAnimation = true;
+//							HueLightingEffects.flickerAnimation(element, "FFB109", (int)relativeAngle, 0.3, 0.5, 200, 350);
+//							distanceFromFire = 3;
+//							System.out.println("3");
+//						}
+						
+						
 					}
 					/////////////// LAVA
 					else if ((state.getBlock() == Blocks.LAVA || state.getBlock() == Blocks.FLOWING_LAVA) && !fireAnimation) {
@@ -185,8 +208,8 @@ public class HueModEventHandler {
 						float rotation = ((player.getRotationYawHead() % 360) + 360) % 360; // First modulus gets -360 to 360, second gets 0 to 360
 						float relativeAngle = ((rotation - angle) + 180) % 360;		
 						
-						if(!lavaAnimation){
-							HueLightingEffects.flickerAnimation(element, "301C0B", (int)relativeAngle, 0.1,0.5, 400, 500);
+						if(!lavaAnimation && !fireAnimation){
+							HueLightingEffects.flickerAnimation(element, "935e30", (int)relativeAngle, 0.1, 0.3, 400, 500);
 							System.out.println("Lava Start");
 							lavaAnimation = true;
 						}
@@ -208,7 +231,7 @@ public class HueModEventHandler {
 							System.out.println("Torch Start");
 							torchAnimation = true;
 						}
-					}
+					} 
 				}
 				/////////////////// STOP ANIMATION 
 				if (!nearFire && fireAnimation){
@@ -217,22 +240,33 @@ public class HueModEventHandler {
 					fireAnimation = false;
 					lavaAnimation = false;
 					torchAnimation = false;
-					element.Disable();
+					HueLightingEffects.stop(element, "FFB109");
+					constantAnimation=false;
+					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				} else if (!nearLava && lavaAnimation){
 					System.out.println("Lava Stop");
 					waterAnimation = false;
 					fireAnimation = false;
 					lavaAnimation = false;
 					torchAnimation = false;
-					element.Disable();
+					HueLightingEffects.stop(element, "513319");
+					constantAnimation=false;
+					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				} else if (!nearTorch && torchAnimation){
 					System.out.println("Torch Stop");
 					waterAnimation = false;
 					fireAnimation = false;
 					lavaAnimation = false;
 					torchAnimation = false;
-					element.Disable();
-				}
+					HueLightingEffects.stop(element, "6d5c39");
+					constantAnimation=false;
+					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
+				 }
+//					else if (!constantAnimation && !torchAnimation && !fireAnimation && !lavaAnimation){
+//					System.out.println("Constant play");
+//					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
+//					constantAnimation = true;
+//				}
 			}			
 		}
 	}
@@ -246,14 +280,13 @@ public class HueModEventHandler {
 
 	@SubscribeEvent
 	public static void onBlockBreak(BreakEvent event) {
-		System.out.println(event.getState().getBlock().toString());
 		if (event.getState().getBlock() == Blocks.GOLD_ORE) {
 			HueLightingEffects.flash("FFAA00", 1, 500);
 		} else if (event.getState().getBlock() == Blocks.IRON_ORE) {
 			HueLightingEffects.flash("9e7c62", 1, 500);
 		} else if (event.getState().getBlock() == Blocks.DIAMOND_ORE) {
 			HueLightingEffects.flash("55FFFF", 1, 500);
-		} else if (event.getState().getBlock() == Blocks.REDSTONE_ORE) {
+		} else if ((event.getState().getBlock() == Blocks.LIT_REDSTONE_ORE) || event.getState().getBlock() == Blocks.REDSTONE_ORE) {
 			HueLightingEffects.flash("c90a00", 1, 500);
 		} else if (event.getState().getBlock() == Blocks.COAL_ORE) {
 			HueLightingEffects.flash("555555", 1, 500);

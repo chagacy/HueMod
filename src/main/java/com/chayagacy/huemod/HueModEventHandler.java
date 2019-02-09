@@ -60,20 +60,20 @@ public class HueModEventHandler {
 		if (event.getEntity() instanceof EntityPlayer) {
 			EntityPlayer player = (EntityPlayer) event.getEntity();
 			if (player.isPotionActive(MobEffects.POISON)) {
-				HueLightingEffects.flash("91d200", 1, 1000);
+				HueLightingEffects.flash("91d200", 1, 1000, "front");
 			} else if (player.isPotionActive(MobEffects.WITHER)) {
-				HueLightingEffects.flash("AA00AA", 1, 1000);// Purple
+				HueLightingEffects.flash("AA00AA", 1, 1000, "all");// Purple
 			} else
-				HueLightingEffects.flash("AA0000", 1, 1000);
+				HueLightingEffects.flash("AA0000", 1, 1000, "all");
 		}
 	}
 
 	@SubscribeEvent
 	public static void onDie(LivingDeathEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
-			HueLightingEffects.flash("AA0000", 1, 1000);
+			HueLightingEffects.flash("AA0000", 1, 1000, "all");
 		} else if(event.getEntity() instanceof EntityMob && event.getSource().getTrueSource() instanceof EntityPlayer){
-			HueLightingEffects.flash("2b9f33", 1, 750);
+			HueLightingEffects.flash("2b9f33", 1, 750,"all");
 		}
 	}
 
@@ -83,7 +83,7 @@ public class HueModEventHandler {
 	}
 	
 //	static int level=0;
-///	
+//	
 //	@SubscribeEvent
 //	public static void levelUp(PlayerPickupXpEvent  event) {
 //		System.out.println("Collect Orb");
@@ -103,6 +103,9 @@ public class HueModEventHandler {
 	private static boolean netherAnimation = false;
 	private static boolean constantAnimation = true;
 	private static int distanceFromFire = 7;
+	
+//	private static boolean poison = false;
+//	private static AreaEffect poisonAnimation = new AreaEffect("poison", 2);
     
 	
 	@SubscribeEvent
@@ -113,6 +116,18 @@ public class HueModEventHandler {
 		EntityPlayer player = event.player;
 		
 		if (player.getEntityWorld().getWorldTime() % 5 == 0) {
+			
+//			if (player.isPotionActive(MobEffects.POISON)) {
+//				if(poison == false){
+//					HueLightingEffects.flickerAnimation(element, "91d200", -999, 0.5, 0.7, 100, 500);
+//					poison = true;
+//				}
+//			} else{ 
+//				if(poison == true){
+//					HueLightingEffects.stop(element, "91d200");
+//					poison = false;
+//				}
+//			}
 			boolean inWater = false;
 			boolean nearFire = false;
 			boolean nearLava = false;
@@ -274,26 +289,26 @@ public class HueModEventHandler {
 	@SubscribeEvent
 	public static void onSound(PlaySoundEvent event) {
 		if (event.getName().equals("entity.lightning.impact")) { // lightning
-			HueLightingEffects.flash("5555FF", 3, 250);
+			HueLightingEffects.flash("5555FF", 3, 250, "back");
 		}
 	}
 
 	@SubscribeEvent
 	public static void onBlockBreak(BreakEvent event) {
 		if (event.getState().getBlock() == Blocks.GOLD_ORE) {
-			HueLightingEffects.flash("FFAA00", 1, 500);
+			HueLightingEffects.flash("FFAA00", 1, 500, "front");
 		} else if (event.getState().getBlock() == Blocks.IRON_ORE) {
-			HueLightingEffects.flash("9e7c62", 1, 500);
+			HueLightingEffects.flash("9e7c62", 1, 500, "front");
 		} else if (event.getState().getBlock() == Blocks.DIAMOND_ORE) {
-			HueLightingEffects.flash("55FFFF", 1, 500);
+			HueLightingEffects.flash("55FFFF", 1, 500, "front");
 		} else if ((event.getState().getBlock() == Blocks.LIT_REDSTONE_ORE) || event.getState().getBlock() == Blocks.REDSTONE_ORE) {
-			HueLightingEffects.flash("c90a00", 1, 500);
+			HueLightingEffects.flash("c90a00", 1, 500, "front");
 		} else if (event.getState().getBlock() == Blocks.COAL_ORE) {
-			HueLightingEffects.flash("555555", 1, 500);
+			HueLightingEffects.flash("555555", 1, 500, "front");
 		} else if (event.getState().getBlock() == Blocks.EMERALD_ORE) {
-			HueLightingEffects.flash("55FF55", 1, 500);
+			HueLightingEffects.flash("55FF55", 1, 500, "front");
 		} else if (event.getState().getBlock() == Blocks.LAPIS_ORE) {
-			HueLightingEffects.flash("5555FF", 1, 500);
+			HueLightingEffects.flash("5555FF", 1, 500, "front");
 		}
 	}
 
@@ -311,7 +326,7 @@ public class HueModEventHandler {
     		String colourHex = Integer.toHexString(colourInt);
     		System.out.println(potion.getName() + " " + colourHex);
     		
-    		HueLightingEffects.flash(colourHex, 1, 1000);
+    		HueLightingEffects.flash(colourHex, 1, 1000, "front");
     		
     		// Reflect the colour of the potion in the lights+
     		

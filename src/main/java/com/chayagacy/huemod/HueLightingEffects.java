@@ -49,7 +49,7 @@ public class HueLightingEffects {
 		element.Disable();
 	}
 	
-	public static void flash(String hexColour, int noOfFlashes, int timeOFflash) {
+	public static void flash(String hexColour, int noOfFlashes, int timeOFflash, String area) {
 		int  r =  Integer.valueOf( hexColour.substring( 0, 2 ), 16 );
 		int  g =  Integer.valueOf( hexColour.substring( 2, 4 ), 16 );
 		int  b =  Integer.valueOf( hexColour.substring( 4, 6 ), 16 );
@@ -76,7 +76,20 @@ public class HueLightingEffects {
 		sawToothB = new CurveAnimation(noOfFlashes-1, pointListB);
 
 		AreaEffect effect = new AreaEffect("AllLights", 2);
-		effect.AddArea(Area.getAll());
+		if(area.equals("all")){
+			effect.AddArea(Area.getAll());
+		} else if (area.equals("front")){
+			effect.AddArea(Area.getFrontCenter());
+		} else if (area.equals("left")){
+			effect.AddArea(Area.getLeftHalf());
+		} else if (area.equals("right")){
+			effect.AddArea(Area.getRightHalf());
+		} else if (area.equals("back")){
+			effect.AddArea(Area.getBack());
+		} else if (area.equals("leftright")){
+			effect.AddArea(Area.getFrontLeftQuarter());
+			effect.AddArea(Area.getFrontRightQuarter());
+		}
 		effect.SetColorAnimation(sawToothR, sawToothG, sawToothB);
 	
 		Main.getHueStream().LockMixer();

@@ -1,0 +1,123 @@
+---- Minecraft Crash Report ----
+// Ooh. Shiny.
+
+Time: 2/5/19 8:11 PM
+Description: Ticking entity
+
+java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "else Statement" to complete IfStatement
+	Syntax error, insert "}" to complete Statement
+
+	at com.chayagacy.huemod.HueModEventHandler.onHurt(HueModEventHandler.java:68)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_HueModEventHandler_onHurt_LivingHurtEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:589)
+	at net.minecraft.entity.EntityLivingBase.damageEntity(EntityLivingBase.java:1572)
+	at net.minecraft.entity.EntityLivingBase.attackEntityFrom(EntityLivingBase.java:1039)
+	at net.minecraft.entity.passive.EntityBat.attackEntityFrom(EntityBat.java:234)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:572)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:279)
+	at net.minecraft.entity.EntityLiving.onEntityUpdate(EntityLiving.java:247)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:470)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:346)
+	at net.minecraft.entity.passive.EntityBat.onUpdate(EntityBat.java:121)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2183)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2142)
+	at net.minecraft.world.World.updateEntities(World.java:1943)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at com.chayagacy.huemod.HueModEventHandler.onHurt(HueModEventHandler.java:68)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_HueModEventHandler_onHurt_LivingHurtEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:589)
+	at net.minecraft.entity.EntityLivingBase.damageEntity(EntityLivingBase.java:1572)
+	at net.minecraft.entity.EntityLivingBase.attackEntityFrom(EntityLivingBase.java:1039)
+	at net.minecraft.entity.passive.EntityBat.attackEntityFrom(EntityBat.java:234)
+	at net.minecraft.entity.Entity.onEntityUpdate(Entity.java:572)
+	at net.minecraft.entity.EntityLivingBase.onEntityUpdate(EntityLivingBase.java:279)
+	at net.minecraft.entity.EntityLiving.onEntityUpdate(EntityLiving.java:247)
+	at net.minecraft.entity.Entity.onUpdate(Entity.java:470)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:2322)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:346)
+	at net.minecraft.entity.passive.EntityBat.onUpdate(EntityBat.java:121)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2183)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:871)
+	at net.minecraft.world.World.updateEntity(World.java:2142)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:bat (net.minecraft.entity.passive.EntityBat)
+	Entity ID: 206
+	Entity Name: Bat
+	Entity's Exact location: 142.45, 33.49, 160.48
+	Entity's Block location: World: (142,33,160), Chunk: (at 14,2,0 in 8,10; contains blocks 128,0,160 to 143,255,175), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: -0.11, -0.03, 0.07
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1943)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: -7792589114719870951
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (96,64,232), Chunk: (at 0,4,8 in 6,14; contains blocks 96,0,224 to 111,255,239), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 650277 game time, 108799 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 19444 (now: false), thunder time: 89882 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_171, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 807586496 bytes (770 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP 9.42 Powered by Forge 14.23.5.2795 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID        | Version      | Source                                           | Signature |
+	|:------ |:--------- |:------------ |:------------------------------------------------ |:--------- |
+	| LCHIJA | minecraft | 1.12.2       | minecraft.jar                                    | None      |
+	| LCHIJA | mcp       | 9.42         | minecraft.jar                                    | None      |
+	| LCHIJA | FML       | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2795-PROJECT(HueMod).jar | None      |
+	| LCHIJA | forge     | 14.23.5.2795 | forgeSrc-1.12.2-14.23.5.2795-PROJECT(HueMod).jar | None      |
+	| LCHIJA | hm        | [1.12.2]     | bin                                              | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

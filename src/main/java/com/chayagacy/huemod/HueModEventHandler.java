@@ -82,19 +82,6 @@ public class HueModEventHandler {
 		HueLightingEffects.explosion();
 	}
 	
-//	static int level=0;
-//	
-//	@SubscribeEvent
-//	public static void levelUp(PlayerPickupXpEvent  event) {
-//		System.out.println("Collect Orb");
-//		EntityPlayer player = event.getEntityPlayer();		
-//		
-//		if(player.xpBarCap() > level) {
-//			HueLightingEffects.flash("3F3F15", 1, 1000);
-//			System.out.println("Level up!");
-//			level = player.experienceLevel;
-//		}
-//	}
 
 	private static boolean waterAnimation = false;
 	private static boolean fireAnimation = false;
@@ -103,10 +90,7 @@ public class HueModEventHandler {
 	private static boolean netherAnimation = false;
 	private static boolean constantAnimation = true;
 	private static int distanceFromFire = 7;
-	
-//	private static boolean poison = false;
-//	private static AreaEffect poisonAnimation = new AreaEffect("poison", 2);
-    
+	 
 	
 	@SubscribeEvent
 	public static void onTicketEvent(TickEvent.PlayerTickEvent event) {
@@ -117,17 +101,7 @@ public class HueModEventHandler {
 		
 		if (player.getEntityWorld().getWorldTime() % 5 == 0) {
 			
-//			if (player.isPotionActive(MobEffects.POISON)) {
-//				if(poison == false){
-//					HueLightingEffects.flickerAnimation(element, "91d200", -999, 0.5, 0.7, 100, 500);
-//					poison = true;
-//				}
-//			} else{ 
-//				if(poison == true){
-//					HueLightingEffects.stop(element, "91d200");
-//					poison = false;
-//				}
-//			}
+
 			boolean inWater = false;
 			boolean nearFire = false;
 			boolean nearLava = false;
@@ -137,7 +111,7 @@ public class HueModEventHandler {
 			if (player.getAir() < 300) {
 				inWater = true;
 				if(!waterAnimation){
-					HueLightingEffects.flickerAnimation(element, "0083FF", -999, 0.5, 0.7, 400, 500);
+					HueLightingEffects.flickerAnimation(element, "0083FF", -999, 0.4, 0.7, 300, 500);
 					waterAnimation = true;
 					System.out.println("WATER Start");
 				}
@@ -277,11 +251,7 @@ public class HueModEventHandler {
 					constantAnimation=false;
 					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				 }
-//					else if (!constantAnimation && !torchAnimation && !fireAnimation && !lavaAnimation){
-//					System.out.println("Constant play");
-//					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
-//					constantAnimation = true;
-//				}
+
 			}			
 		}
 	}
@@ -328,27 +298,9 @@ public class HueModEventHandler {
     		
     		HueLightingEffects.flash(colourHex, 1, 1000, "front");
     		
-    		// Reflect the colour of the potion in the lights+
+    		// Reflect the colour of the potion in the lights
     		
         }
 	}
 
 }
-
-////DIFFERENT STRENGTH OF LIGHT DEPENDING ON DISTANCE
-//if(diff.length()>=0 && diff.length()<3 && distanceFromFire!=1){
-//	AreaEffect fire1 = new AreaEffect("fire",1);
-//	HueLightingEffects.playCandleWithColorVariation(fire1, "FFB109", (int)relativeAngle);
-//	distanceFromFire = 1;
-//	System.out.println("1");
-//}else if(diff.length()>=3 && diff.length()<5 && distanceFromFire!=2){
-//	AreaEffect fire2 = new AreaEffect("fire",1);
-//	HueLightingEffects.playCandleWithColorVariation(fire2, "765300", (int)relativeAngle);
-//	distanceFromFire = 2;
-//	System.out.println("2");
-//} else if(diff.length()>=5 && diff.length()<6 && distanceFromFire!=3){
-//	fire = new AreaEffect("fire",1);
-//	HueLightingEffects.playCandleWithColorVariation(fire, "211700", (int)relativeAngle);
-//	distanceFromFire = 3;
-//	System.out.println("3");
-//}

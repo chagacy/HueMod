@@ -1,155 +1,130 @@
-[13:05:35] [main/INFO] [GradleStart]: Extra: []
-[13:05:36] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/chaya/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[13:05:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:05:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:05:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:05:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[13:05:36] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2795 for Minecraft 1.12.2 loading
-[13:05:36] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_171, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_171
-[13:05:36] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[13:05:36] [main/ERROR] [FML]: Full: C:\Users\chaya\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[13:05:36] [main/ERROR] [FML]: Trimmed: c:/users/chaya/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[13:05:36] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[13:05:36] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[13:05:37] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[13:05:37] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[13:05:37] [main/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
-[13:05:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[13:05:37] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[13:05:37] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[13:05:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:05:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:05:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:05:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:05:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:05:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:05:39] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[13:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[13:05:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:05:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:05:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[13:05:40] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player509
-[13:05:43] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[13:05:43] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[13:05:44] [Client thread/INFO] [FML]: -- System Details --
+[19:47:56] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/chaya/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:47:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:47:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:47:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:47:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:47:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2795 for Minecraft 1.12.2 loading
+[19:47:56] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_171, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_171
+[19:47:57] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:47:57] [main/ERROR] [FML]: Full: C:\Users\chaya\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:47:57] [main/ERROR] [FML]: Trimmed: c:/users/chaya/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:47:57] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:47:57] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[19:47:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:47:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:47:58] [main/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[19:47:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:47:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[19:47:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:47:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:47:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:47:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:47:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:47:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:47:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:48:01] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:48:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:48:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:48:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:48:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:48:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:48:02] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:48:03] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player865
+[19:48:08] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[19:48:09] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_171, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 872046872 bytes (831 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	Memory: 862248856 bytes (822 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
 	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.5.0 - Build 22.20.16.4749' Renderer: 'Intel(R) HD Graphics 630'
-[13:05:44] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2795 Initialized
-[13:05:44] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[13:05:44] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
-[13:05:45] [Client thread/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
-[13:05:46] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[13:05:47] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 85540758 nanos
-[13:05:47] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at CLIENT
-[13:05:47] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at SERVER
-[13:05:47] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hue Mod
-[13:05:48] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[13:05:48] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[13:05:48] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[13:05:48] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[13:05:48] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[13:05:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13:05:48] [Client thread/INFO] [FML]: Applying holder lookups
-[13:05:48] [Client thread/INFO] [FML]: Holder lookups applied
-[13:05:48] [Client thread/INFO] [FML]: Applying holder lookups
-[13:05:48] [Client thread/INFO] [FML]: Holder lookups applied
-[13:05:48] [Client thread/INFO] [FML]: Applying holder lookups
-[13:05:48] [Client thread/INFO] [FML]: Holder lookups applied
-[13:05:48] [Client thread/INFO] [FML]: Applying holder lookups
-[13:05:48] [Client thread/INFO] [FML]: Holder lookups applied
-[13:05:48] [Client thread/INFO] [FML]: Injecting itemstacks
-[13:05:48] [Client thread/INFO] [FML]: Itemstack injection complete
-[13:05:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2811
-[13:05:52] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[13:05:52] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[13:05:52] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:05:54] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[13:05:54] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[13:05:59] [Client thread/INFO] [FML]: Max texture size: 16384
-[13:05:59] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[13:06:01] [Client thread/INFO] [FML]: Applying holder lookups
-[13:06:01] [Client thread/INFO] [FML]: Holder lookups applied
-[13:06:01] [Client thread/INFO] [FML]: Injecting itemstacks
-[13:06:01] [Client thread/INFO] [FML]: Itemstack injection complete
-[13:06:01] [Thread-7/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_STARTED
-[13:06:01] [Thread-8/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_LOADING
-[13:06:01] [Thread-9/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_LOADING_BRIDGE_CONFIGURED
-[13:06:01] [Thread-10/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING_SMALL
-[13:06:01] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[13:06:01] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[13:06:01] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[13:06:02] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[13:06:16] [Thread-12/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_FAILED
-[13:06:16] [Thread-13/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_SEARCHING
-[13:06:24] [Thread-14/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_SEARCHING_NO_BRIDGES_FOUND
-[13:06:24] [Thread-15/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_SEARCHING
-[13:06:34] [Thread-16/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_SEARCHING_NO_BRIDGES_FOUND
-[13:06:34] [Thread-17/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_DONE_ACTION_REQUIRED
-[13:06:34] [Thread-18/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_BRIDGE_NOT_FOUND
-[13:06:34] [Thread-18/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:99]: We couldn't connect to your Hue Bridge. Make sure your Hue Bridge is connected to your home Wi-Fi network or search for another Hue Bridge.
-[13:06:34] [Thread-19/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_SAVING
-[13:06:34] [Thread-20/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_SAVING_SAVED
-[13:06:34] [Thread-21/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CHANGED
-[13:06:34] [Thread-22/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_GROUPLIST_UPDATED
-[13:06:34] [Thread-23/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_LIGHTS_UPDATED
-[13:06:34] [Thread-24/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_GROUP_LIGHTSTATE_UPDATED
-[13:06:34] [Thread-25/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_FINISHED
-[13:06:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[13:06:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[13:06:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[13:06:50] [Server thread/INFO] [FML]: Applying holder lookups
-[13:06:50] [Server thread/INFO] [FML]: Holder lookups applied
-[13:06:51] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@795e581)
-[13:06:51] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[13:06:51] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@795e581)
-[13:06:51] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@795e581)
-[13:06:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID ff2c97d5-fd7a-4c55-9444-85fac0e2c037
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID ac92aeec-7402-476f-a2ac-0d88d5358dc8
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 6f2e7da0-d1ae-40e6-a6a4-d04173286195
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 4ab93908-0348-4db7-97a0-1622da7168af
-[13:06:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 38%
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a017281b-eaee-4f7b-822f-8aca55db19bb
-[13:06:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 4235cd05-7e1a-4ddf-b819-24af74a5df47
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:sheep that already exists with UUID 947c4e02-0cd7-4604-9f6a-5859ff1759b8
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 2e2b41e0-9a43-4f39-ab06-b064eeced899
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 7867d998-a902-4e2e-b63c-9057029f36b5
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID d6be7b13-30b8-4c2c-a73a-14563a2d3942
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 7867d998-a902-4e2e-b63c-9057029f36b5
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID c2acb566-7e69-4862-a7f0-4a18dabdd5d5
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 18385026-b065-4e3e-8270-e3aa99cfa58b
-[13:06:53] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a74ca350-93a9-4ad9-b963-7be05a53528d
-[13:06:53] [Server thread/INFO] [FML]: Unloading dimension -1
-[13:06:53] [Server thread/INFO] [FML]: Unloading dimension 1
-[13:06:53] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[13:06:55] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[13:06:55] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[13:06:55] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,hm@[1.12.2],forge@14.23.5.2795,mcp@9.42
-[13:06:55] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[13:06:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:06:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player509[local:E:d8fad9ff] logged in with entity id 358 at (99.05782357596921, 70.0, 192.1724630567338)
-[13:06:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 joined the game
-[13:06:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Hot Stuff]
-[13:06:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Diamonds!]
-[13:06:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[13:06:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[13:06:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Hot Stuff]
-[13:06:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Diamonds!]
-[13:06:56] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 37 advancements
-[13:06:56] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@18a6381e[id=f7e77b0e-8c33-3536-90c1-aa6b49a4e946,name=Player509,properties={},legacy=false]
+[19:48:09] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2795 Initialized
+[19:48:09] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:48:09] [Client thread/INFO] [FML]: Replaced 1036 ore ingredients
+[19:48:10] [Client thread/INFO] [FML]: Searching C:\Users\chaya\Desktop\MinecraftMod\HueMod\.\mods for mods
+[19:48:12] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 107624604 nanos
+[19:48:12] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[19:48:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at CLIENT
+[19:48:12] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, hm] at SERVER
+[19:48:13] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Hue Mod
+[19:48:14] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:48:14] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[19:48:14] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:48:14] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:48:14] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:48:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:48:14] [Client thread/INFO] [FML]: Applying holder lookups
+[19:48:14] [Client thread/INFO] [FML]: Holder lookups applied
+[19:48:14] [Client thread/INFO] [FML]: Applying holder lookups
+[19:48:14] [Client thread/INFO] [FML]: Holder lookups applied
+[19:48:14] [Client thread/INFO] [FML]: Applying holder lookups
+[19:48:14] [Client thread/INFO] [FML]: Holder lookups applied
+[19:48:14] [Client thread/INFO] [FML]: Applying holder lookups
+[19:48:14] [Client thread/INFO] [FML]: Holder lookups applied
+[19:48:14] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:48:14] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:48:15] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2825
+[19:48:26] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[19:48:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[19:48:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:48:27] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[19:48:27] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[19:48:34] [Client thread/INFO] [FML]: Max texture size: 16384
+[19:48:34] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[19:48:36] [Client thread/INFO] [FML]: Applying holder lookups
+[19:48:36] [Client thread/INFO] [FML]: Holder lookups applied
+[19:48:36] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:48:36] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:48:36] [Thread-7/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_STARTED
+[19:48:36] [Thread-8/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_LOADING
+[19:48:36] [Thread-9/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_LOADING_BRIDGE_CONFIGURED
+[19:48:36] [Thread-10/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING_SMALL
+[19:48:36] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[19:48:36] [Thread-11/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_SMALL
+[19:48:36] [Thread-12/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_RETRIEVING
+[19:48:36] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[19:48:37] [Thread-14/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_RETRIEVING_READY_TO_START
+[19:48:37] [Thread-15/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_SAVING
+[19:48:37] [Thread-16/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_SAVING_SAVED
+[19:48:37] [Thread-17/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_START_ACTIVATING
+[19:48:37] [Thread-18/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_FINISH_ACTIVATING_ACTIVE
+[19:48:37] [Thread-19/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_DONE_COMPLETED
+[19:48:37] [Thread-20/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CONNECTED
+[19:48:37] [Thread-21/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_STREAMING_CONNECTED
+[19:48:37] [Thread-22/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_BRIDGE_CHANGED
+[19:48:37] [Thread-23/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_GROUPLIST_UPDATED
+[19:48:37] [Thread-24/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_LIGHTS_UPDATED
+[19:48:37] [Thread-25/INFO] [STDOUT]: [com.chayagacy.huemod.Main$FeedBackHandler:NewFeedbackMessage:97]: REQUEST_TYPE_CONNECT: ID_USERPROCEDURE_FINISHED
+[19:48:38] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[19:48:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:48:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[19:48:49] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:48:49] [Server thread/INFO] [FML]: Applying holder lookups
+[19:48:49] [Server thread/INFO] [FML]: Holder lookups applied
+[19:48:50] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@114c3a59)
+[19:48:50] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[19:48:50] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@114c3a59)
+[19:48:50] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@114c3a59)
+[19:48:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:48:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[19:48:52] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:48:52] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:48:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[19:48:54] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[19:48:54] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[19:48:54] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,hm@[1.12.2],forge@14.23.5.2795,mcp@9.42
+[19:48:54] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[19:48:54] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:48:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player865[local:E:029f28f0] logged in with entity id 99 at (-307.17532572338393, 63.0, -267.5156572295798)
+[19:48:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 joined the game
+[19:48:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:48:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:48:56] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@716cb888[id=42c8facc-cbd2-36d2-8ac3-7dd20c6ce2a1,name=Player865,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -171,495 +146,164 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_171]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_171]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
-[13:07:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[13:07:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[13:07:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:07:51] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[13:07:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[13:08:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set the time to 0]
-[13:08:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
-[13:08:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[13:08:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[13:08:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:10:22] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:10:22] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:10:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:10:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:10:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:10:51] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:10:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:10:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:10:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:10:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:10:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:10:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:11:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:11:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:11:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:11:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:11:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:11:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:11:28] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:11:28] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:11:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:12:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 38 advancements
-[13:12:07] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 39 advancements
-[13:12:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 40 advancements
-[13:15:51] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 41 advancements
-[13:16:01] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 42 advancements
-[13:18:14] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 53 advancements
-[13:18:33] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[13:18:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[13:18:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set the time to 0]
-[13:18:42] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
-[13:20:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 54 advancements
-[13:29:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:29:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:29:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:32:18] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 54 advancements
-[13:33:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[13:33:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[13:33:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Sweet dreams]
-[13:33:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Sweet dreams]
-[13:33:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 57 advancements
-[13:37:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[13:37:55] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[13:38:00] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:38:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:38:26] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:38:28] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:38:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:38:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:39:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:39:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:39:11] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:39:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:39:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:39:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:39:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:39:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:40:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:40:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:40:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:40:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:40:06] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:40:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:40:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:40:45] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:40:45] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:40:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:40:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:40:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:40:48] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:40:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:40:56] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:40:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:40:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:41:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:41:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:41:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:41:07] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:41:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Stone Age]
-[13:41:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Stone Age]
-[13:41:12] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 67 advancements
-[13:41:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 71 advancements
-[13:41:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:41:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:07] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:13] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:14] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:22] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:29] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:33] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:42:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:42:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:52:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:52:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:52:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:52:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:52:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[13:52:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:52:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:53:00] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 77 advancements
-[13:53:12] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:53:12] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[13:53:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[13:53:18] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:53:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:53:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:53:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[13:53:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:54:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:54:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:54:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:54:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[13:54:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:54:12] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 78 advancements
-[13:55:12] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:55:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:55:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:55:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[13:55:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:55:51] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:55:51] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:56:03] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[13:56:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:56:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:56:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[13:56:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 80 advancements
-[13:56:49] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 86 advancements
-[13:56:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:56:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:56:56] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:56:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:57:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:57:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:57:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[13:57:02] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[13:58:24] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:58:26] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:59:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[13:59:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[13:59:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[13:59:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:59:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:59:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[13:59:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[13:59:53] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[13:59:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:59:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:59:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[13:59:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[13:59:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[13:59:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[14:00:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:00:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:00:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:00:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:00:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:00:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:00:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:00:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:00:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:00:54] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:00:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:00:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:00:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:04:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[14:04:15] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[14:04:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:04:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:04:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:04:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:04:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:04:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:04:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:04:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:04:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:04:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:04:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:04:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:04:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 87 advancements
-[14:04:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:04:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:04:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:04:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:04:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:12] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:05:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:16] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[14:05:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:05:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:25] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:05:25] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:05:27] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:05:27] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:05:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:05:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:05:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:05:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:05:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:05:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:05:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:05:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:05:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:48] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:05:51] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:05:51] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:05:53] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:05:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:05:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:05:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:00] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:06:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:06:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:06:07] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:06:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:06:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:06:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:14] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:06:14] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:06:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:06:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:06:16] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:06:16] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set the time to 0]
-[14:06:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
-[14:06:28] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:06:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:06:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:06:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:06:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:06:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:17:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[14:17:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[14:18:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[14:18:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[14:18:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[14:18:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[14:19:00] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing difficulty to EASY, from PEACEFUL
-[14:19:03] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:22] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[14:19:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:33] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:19:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:19:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:19:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:19:52] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:19:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:19:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[14:19:59] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[14:19:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:19:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:19:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[14:19:59] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[14:20:00] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[14:20:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:20:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[14:20:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[14:20:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing difficulty to NORMAL, from EASY
-[14:20:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:20:21] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:20:22] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:20:28] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:20:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set the time to 0]
-[14:20:41] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 0
-[14:20:53] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:21:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:21:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Cover Me With Diamonds]
-[14:21:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Cover Me With Diamonds]
-[14:21:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 87 advancements
-[14:21:31] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 88 advancements
-[14:22:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[14:22:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[14:22:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[14:22:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[14:36:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[14:36:15] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[14:37:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[14:37:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[14:37:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[14:37:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[14:39:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[14:39:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[14:40:13] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:40:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:40:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:40:32] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:40:33] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:40:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[14:40:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[14:40:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[14:40:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[15:26:03] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:26:05] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[15:26:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[15:26:14] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:26:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:26:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:27:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [Ice Bucket Challenge]
-[15:27:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [Ice Bucket Challenge]
-[15:27:09] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 92 advancements
-[15:28:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:158]: Portal Start
-[15:28:10] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@795e581)
-[15:28:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 has made the advancement [We Need to Go Deeper]
-[15:28:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 has made the advancement [We Need to Go Deeper]
-[15:28:11] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 100 advancements
-[15:28:12] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2287ms behind, skipping 45 tick(s)
-[15:28:13] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:167]: Portal Stop
-[15:28:25] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:28:25] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:28:26] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:28:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:28:30] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:28:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:28:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[15:28:41] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a017281b-eaee-4f7b-822f-8aca55db19bb
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID c2acb566-7e69-4862-a7f0-4a18dabdd5d5
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 7867d998-a902-4e2e-b63c-9057029f36b5
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID d6be7b13-30b8-4c2c-a73a-14563a2d3942
-[15:28:42] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:158]: Portal Start
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 18385026-b065-4e3e-8270-e3aa99cfa58b
-[15:28:42] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a74ca350-93a9-4ad9-b963-7be05a53528d
-[15:28:42] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:28:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:167]: Portal Stop
-[15:28:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:28:43] [Server thread/INFO] [FML]: Unloading dimension -1
-[15:29:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:29:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:29:11] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:29:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:31:45] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:32:13] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:32:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:32:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:32:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:32:56] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:32:56] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:00] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:33:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:33:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:33:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:33:27] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:27] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:29] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:33:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:32] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:33:32] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:32] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:36] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:41] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:41] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:33:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:33:48] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:48] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[15:33:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[15:33:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
-[15:33:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
-[15:50:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
-[15:50:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[15:50:37] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[15:55:41] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[16:04:29] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[16:04:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[16:04:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[16:08:16] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onPotionTaken:327]: effect.poison 4e9331
-[16:08:25] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onPotionTaken:327]: effect.moveSlowdown 5a6c81
-[16:08:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player509 was killed by Witch using magic
-[16:08:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player509 was killed by Witch using magic
-[16:08:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onPotionTaken:327]: effect.poison 4e9331
-[16:08:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[16:08:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[20:32:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 15811715ms behind, skipping 316234 tick(s)
-[20:32:39] [Thread-30/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
-[20:32:39] [Thread-31/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
-[22:23:46] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 4472947ms behind, skipping 89458 tick(s)
-[22:23:49] [Thread-32/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
-[22:24:04] [Thread-33/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
-[22:24:04] [Thread-34/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:-1]: java.lang.NullPointerException: null upcall object in huestream::IFeedbackMessageHandler::NewFeedbackMessage 
-[22:53:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[22:53:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[22:53:27] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[22:53:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[22:53:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[22:53:41] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[22:53:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[22:53:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[22:53:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[22:53:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[22:53:50] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[22:54:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[22:54:03] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[22:54:07] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
-[22:54:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[22:56:19] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[22:56:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Data tag parsing failed: Trailing data found at: {BlockEntityTag:{EntityId:Spider}}/<--[HERE]
-[22:56:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:56:33] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:56:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:56:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:57:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Survival Mode]
-[22:57:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[22:57:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:57:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:57:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[22:57:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
-[22:57:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:57:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:57:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:57:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:57:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:57:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:57:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:57:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:58:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:58:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:59:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:59:00] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:59:05] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[22:59:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[22:59:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Given [Monster Spawner] * 1 to Player509]
-[22:59:30] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Monster Spawner] * 1 to Player509
-[22:59:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player509: Set own game mode to Creative Mode]
-[22:59:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[23:00:14] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[23:00:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
-[23:00:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
-[23:00:16] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
-[23:00:16] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[23:00:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
-[23:00:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
-[23:00:25] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[23:00:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:48:56] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 18 advancements
+[19:49:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 24 advancements
+[19:49:07] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:142]: WATER Start
+[19:49:11] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:151]: WATER Stop
+[19:49:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:142]: WATER Start
+[19:49:20] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:151]: WATER Stop
+[19:49:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:49:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:49:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:49:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:49:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player865 lost connection: Disconnected
+[19:49:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 left the game
+[19:49:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[19:49:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:49:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:49:27] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:49:27] [Server thread/INFO] [FML]: Applying holder lookups
+[19:49:27] [Server thread/INFO] [FML]: Holder lookups applied
+[19:49:33] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:49:33] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[19:49:34] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:49:34] [Server thread/INFO] [FML]: Applying holder lookups
+[19:49:34] [Server thread/INFO] [FML]: Holder lookups applied
+[19:49:34] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@68c186c9)
+[19:49:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[19:49:34] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@68c186c9)
+[19:49:34] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@68c186c9)
+[19:49:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[19:49:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[19:49:34] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID ac92aeec-7402-476f-a2ac-0d88d5358dc8
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID ff2c97d5-fd7a-4c55-9444-85fac0e2c037
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 6f2e7da0-d1ae-40e6-a6a4-d04173286195
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 4ab93908-0348-4db7-97a0-1622da7168af
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a017281b-eaee-4f7b-822f-8aca55db19bb
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 4235cd05-7e1a-4ddf-b819-24af74a5df47
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:sheep that already exists with UUID 947c4e02-0cd7-4604-9f6a-5859ff1759b8
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 2e2b41e0-9a43-4f39-ab06-b064eeced899
+[19:49:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 63%
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 7867d998-a902-4e2e-b63c-9057029f36b5
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID d6be7b13-30b8-4c2c-a73a-14563a2d3942
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 7867d998-a902-4e2e-b63c-9057029f36b5
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID c2acb566-7e69-4862-a7f0-4a18dabdd5d5
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID 18385026-b065-4e3e-8270-e3aa99cfa58b
+[19:49:35] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID a74ca350-93a9-4ad9-b963-7be05a53528d
+[19:49:35] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:49:35] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:49:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[19:49:36] [Netty Local Client IO #1/INFO] [FML]: Server protocol version 2
+[19:49:36] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[19:49:36] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,hm@[1.12.2],forge@14.23.5.2795,mcp@9.42
+[19:49:36] [Netty Local Client IO #1/INFO] [FML]: [Netty Local Client IO #1] Client side modded connection established
+[19:49:36] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:49:36] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player865[local:E:be11edb7] logged in with entity id 529 at (-358.69101695139193, 64.0, 175.3000000119209)
+[19:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 joined the game
+[19:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 has made the advancement [Cover Me With Diamonds]
+[19:49:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 has made the advancement [Cover Me With Diamonds]
+[19:49:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 45 advancements
+[19:49:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:49:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:49:49] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:49:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:49:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:49:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:49:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
+[19:49:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:49:58] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:50:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
+[19:50:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 was slain by Zombie
+[19:50:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 was slain by Zombie
+[19:50:24] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 54 advancements
+[19:50:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[19:50:26] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
+[19:50:26] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:51:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 has made the advancement [Stone Age]
+[19:51:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 has made the advancement [Stone Age]
+[19:51:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 65 advancements
+[19:51:44] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 76 advancements
+[19:52:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 82 advancements
+[19:52:33] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 82 advancements
+[19:52:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 has made the advancement [Getting an Upgrade]
+[19:52:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 has made the advancement [Getting an Upgrade]
+[19:52:48] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 85 advancements
+[19:52:51] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 85 advancements
+[19:52:55] [Client thread/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[19:52:56] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:04] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:08] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 91 advancements
+[19:53:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:142]: WATER Start
+[19:53:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:151]: WATER Stop
+[19:53:10] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:15] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:26] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:31] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:34] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onPotionTaken:327]: effect.jump 22ff4c
+[19:53:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 98 advancements
+[19:53:35] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:40] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:44] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:53:47] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:53:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[19:53:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
+[19:54:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:54:03] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:54:11] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 100 advancements
+[19:54:18] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:54:23] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:54:29] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:54:43] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:54:46] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:54:55] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:158]: Portal Start
+[19:54:59] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@68c186c9)
+[19:55:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 has made the advancement [We Need to Go Deeper]
+[19:55:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 has made the advancement [We Need to Go Deeper]
+[19:55:01] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onPotionTaken:327]: effect.jump 22ff4c
+[19:55:01] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2157ms behind, skipping 43 tick(s)
+[19:55:02] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancements
+[19:55:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:02] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:167]: Portal Stop
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
+[19:55:07] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:262]: Lava Stop
+[19:55:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:228]: Lava Start
+[19:55:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:08] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:55:13] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 118 advancements
+[19:55:17] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
+[19:55:38] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
+[19:55:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueLightingEffects:flickerAnimation:159]: Select Area
+[19:55:39] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:188]: Fire Start
+[19:55:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player865 was burnt to a crisp whilst fighting Blaze
+[19:55:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player865 was burnt to a crisp whilst fighting Blaze
+[19:55:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:253]: Fire Stop
+[19:55:57] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:246]: Torch Start
+[19:55:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID aa70c29e-cc7b-4f6d-a5ca-4b04747e0dff
+[19:55:58] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID bbef3eca-aac4-4447-a4fc-9c1666573b34
+[19:56:00] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:56:00] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2514ms behind, skipping 50 tick(s)
+[19:56:05] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:271]: Torch Stop
+[19:56:06] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:142]: WATER Start
+[19:56:09] [Client thread/INFO] [STDOUT]: [com.chayagacy.huemod.HueModEventHandler:onTicketEvent:151]: WATER Stop
+[19:56:13] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[19:56:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:56:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[19:56:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:56:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:56:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:56:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:56:16] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:56:16] [Server thread/INFO] [FML]: Applying holder lookups
+[19:56:16] [Server thread/INFO] [FML]: Holder lookups applied
+[19:56:16] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[19:56:16] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

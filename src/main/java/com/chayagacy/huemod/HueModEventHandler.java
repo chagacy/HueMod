@@ -1,9 +1,8 @@
 package com.chayagacy.huemod;
 
+import com.chayagacy.huemod.HueLightingEffects;
 import com.chayagacy.huemod.util.Reference;
 import com.google.common.collect.Iterators;
-import com.chayagacy.huemod.HueLightingEffects;
-
 import com.lighting.huestream.Area;
 import com.lighting.huestream.AreaEffect;
 import com.lighting.huestream.ConstantAnimation;
@@ -55,6 +54,9 @@ public class HueModEventHandler {
 
 	private static AreaEffect element = new AreaEffect("element", 0);
 
+	/*
+	 * When a player gets hurt, depending on how, it will set off the lights
+	 */
 	@SubscribeEvent
 	public static void onHurt(LivingHurtEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
@@ -62,12 +64,15 @@ public class HueModEventHandler {
 			if (player.isPotionActive(MobEffects.POISON)) {
 				HueLightingEffects.flash("91d200", 1, 1000, "front");
 			} else if (player.isPotionActive(MobEffects.WITHER)) {
-				HueLightingEffects.flash("AA00AA", 1, 1000, "all");// Purple
+				HueLightingEffects.flash("AA00AA", 1, 1000, "all");
 			} else
 				HueLightingEffects.flash("AA0000", 1, 1000, "all");
 		}
 	}
 
+	/*
+	 * if player dies flash red, if mob dies flash green
+	 */
 	@SubscribeEvent
 	public static void onDie(LivingDeathEvent event) {
 		if (event.getEntity() instanceof EntityPlayer) {
@@ -77,12 +82,15 @@ public class HueModEventHandler {
 		}
 	}
 
+	/*
+	 * set off lights when explosion
+	 */
 	@SubscribeEvent
 	public static void onExplosion(ExplosionEvent event) {
 		HueLightingEffects.explosion();
 	}
 	
-
+	// is an animation playing
 	private static boolean waterAnimation = false;
 	private static boolean fireAnimation = false;
 	private static boolean lavaAnimation = false;
@@ -91,7 +99,9 @@ public class HueModEventHandler {
 	private static boolean constantAnimation = true;
 	private static int distanceFromFire = 7;
 	 
-	
+	/*
+	 * eery tick game will check for these conditions and make the lights react appropriately
+	 */
 	@SubscribeEvent
 	public static void onTicketEvent(TickEvent.PlayerTickEvent event) {
 		if (event.phase != TickEvent.Phase.END || event.side != Side.CLIENT)
@@ -99,7 +109,7 @@ public class HueModEventHandler {
 		
 		EntityPlayer player = event.player;
 		
-		if (player.getEntityWorld().getWorldTime() % 5 == 0) {
+		if (player.getEntityWorld().getWorldTime() % 5 == 0) { // limits the check to every 5th tick, this will stop some lag if there is any. increase if lagging
 			
 
 			boolean inWater = false;
@@ -231,7 +241,6 @@ public class HueModEventHandler {
 					torchAnimation = false;
 					HueLightingEffects.stop(element, "FFB109");
 					constantAnimation=false;
-					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				} else if (!nearLava && lavaAnimation){
 					System.out.println("Lava Stop");
 					waterAnimation = false;
@@ -240,7 +249,6 @@ public class HueModEventHandler {
 					torchAnimation = false;
 					HueLightingEffects.stop(element, "513319");
 					constantAnimation=false;
-					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				} else if (!nearTorch && torchAnimation){
 					System.out.println("Torch Stop");
 					waterAnimation = false;
@@ -249,13 +257,15 @@ public class HueModEventHandler {
 					torchAnimation = false;
 					HueLightingEffects.stop(element, "6d5c39");
 					constantAnimation=false;
-					//HueLightingEffects.flickerAnimation(element, "444444", -999, 0.1, 0.1, 1000, 1000);
 				 }
 
 			}			
 		}
 	}
  
+	/*
+	 * when lightning sound plays, make lights flash
+	 */
 	@SubscribeEvent
 	public static void onSound(PlaySoundEvent event) {
 		if (event.getName().equals("entity.lightning.impact")) { // lightning
@@ -263,6 +273,9 @@ public class HueModEventHandler {
 		}
 	}
 
+	/*
+	 * when certain block broken, make lights flash
+	 */
 	@SubscribeEvent
 	public static void onBlockBreak(BreakEvent event) {
 		if (event.getState().getBlock() == Blocks.GOLD_ORE) {
@@ -282,6 +295,9 @@ public class HueModEventHandler {
 		}
 	}
 
+	/* 
+	 * on potion taken make lights flash
+	 */
 	@SubscribeEvent
 	public static void onPotionTaken(PotionAddedEvent event) {
 		if (!event.getEntity().getEntityWorld().isRemote)

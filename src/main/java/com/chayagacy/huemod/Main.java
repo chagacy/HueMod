@@ -60,14 +60,12 @@ public class Main {
 	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event){
-		//MinecraftForge.EVENT_BUS.register(new HueModEventHandler());
 		
-		///////////////// HUE LIGHTS
+		///////////////// Hue light initialisation
 		Init();
  		hueStream.ConnectBridgeAsync();
 		IfMultipleGroupsSelectFirst();
-		HueLightingEffects.flickerAnimation(new AreaEffect("",0), "444444", -999, 0.1, 0.1, 1000, 1000);
- 		//hueStream.ShutDown();
+		HueLightingEffects.flickerAnimation(new AreaEffect("",0), "444444", -999, 0.1, 0.1, 1000, 1000); // light effect to shwo lights are connected
 	}
 	
 	public static HueStream getHueStream() {

@@ -14,6 +14,11 @@ import com.lighting.huestream.TweenType;
 
 public class HueLightingEffects {
 	
+	/**
+	 * Stop any animation and take it back to the dim lights
+	 * @param element area which you want to stop 
+	 * @param colour colour of last effect
+	 */
 	public static void stop(AreaEffect element, String colour){
 		
 		int  r =  Integer.valueOf( colour.substring( 0, 2 ), 16 );
@@ -49,6 +54,13 @@ public class HueLightingEffects {
 		element.Disable();
 	}
 	
+	/**
+	 * flash affact that will flash for given amount of time and given amount of times
+	 * @param hexColour - colour of flash
+	 * @param noOfFlashes - number of flashes
+	 * @param timeOFflash - length of flash
+	 * @param area - area of the flash
+	 */
 	public static void flash(String hexColour, int noOfFlashes, int timeOFflash, String area) {
 		int  r =  Integer.valueOf( hexColour.substring( 0, 2 ), 16 );
 		int  g =  Integer.valueOf( hexColour.substring( 2, 4 ), 16 );
@@ -98,6 +110,9 @@ public class HueLightingEffects {
 		Main.getHueStream().UnlockMixer();
 	}
 	
+	/*
+	 * Effect that imitates an explosion
+	 */
 	public static void explosion(){
 		//Create effect from predefined explosionEffect
 	    ExplosionEffect explosion = new ExplosionEffect("explosion", 2);
@@ -116,18 +131,29 @@ public class HueLightingEffects {
 	    Main.getHueStream().UnlockMixer();
 	}
 
+	/*
+	 * Effect that randomly changes shade and brightness based on inputs
+	 * 
+	 * @param effect - area of the effect
+	 * @param colour - colour of the flicker
+	 * @param angle - angle from player (if lights were directional) -999 if no angle
+	 * @param strengthLow - lowest brightness
+	 * @param strengthHigh - highest brightness
+	 * @param transitionLow - slowest transition
+	 * @param transitionHigh - quickest transition
+	 */
 	public static void flickerAnimation(AreaEffect effect, String colour, int angle, double strengthLow, double strengthHigh, int transitionLow, int transitionHigh) {	    		
-		int  r =  Integer.valueOf( colour.substring( 0, 2 ), 16 );
+		int  r =  Integer.valueOf( colour.substring( 0, 2 ), 16 ); // turns hex colour into rgb components
 		int  g =  Integer.valueOf( colour.substring( 2, 4 ), 16 );
 		int  b =  Integer.valueOf( colour.substring( 4, 6 ), 16 );
 		
-		//////////////////////////////FADEIN
+		//FADEIN
 		CurveAnimation sawTooth;
 		CurveAnimation sawToothR;
 		CurveAnimation sawToothG;
 		CurveAnimation sawToothB;
 
-		PointVector pointListR = new PointVector();
+		PointVector pointListR = new PointVector(); 
 		pointListR.add(new Point(0, 0.1));
 		pointListR.add(new Point(1000, (r/255.0)*0.5));
 		sawToothR = new CurveAnimation(0, pointListR);
@@ -158,7 +184,7 @@ public class HueLightingEffects {
 		} else{
 			System.out.println("Select Area");
 			effect.AddArea(Area.getAll());
-//		    if(angle > 22.5 && angle <= 67.5){
+//		    if(angle > 22.5 && angle <= 67.5){ // To be used for making lights directional
 //		    	effect.AddArea(Area.getFrontRightQuarter());
 //		    	effect.AddArea(Area.getFrontCenter());
 //		    } else if(angle > 67.5 && angle <= 112.5){
